@@ -16,6 +16,7 @@ export default function App() {
   };
   return (
     <div className="container">
+      <h1>React State Example. - Functional based Component</h1>
       <h1>{counter}</h1>
       <button onClick={incrementCount}> Increment</button>
       <button onClick={decrementCount}> Decrement</button>
